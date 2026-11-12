@@ -1,7 +1,7 @@
 ---@diagnostic disable: lowercase-global
 name = "强制纠正IP端口(服务端)"
-version = "0.2.1.4"
-version_compatible = "0.2"
+version = "0.3"
+version_compatible = "0.3"
 description = [[
 设置本模组需订阅【配置扩展】！
 本模组分为客户端部分和服务器部分
@@ -27,17 +27,6 @@ end
 
 configuration_options =
 {
-    {
-		name = "master_port",
-		label = "主世界服务器端口",
-		hover = "请填写主世界端口 server_port 例如：10999。不填的效果等于填10999",
-		options =	{
-						{description = "请开启配置扩展Mod", data = ""},
-					},
-		default = "",
-        is_text_config = true
-	},
-	SkipSpace(),
     {
 		name = "original_ip_1",
 		label = "原IP-1",
